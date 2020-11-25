@@ -53,8 +53,8 @@ public class TestKDController {
         List<Trade> trades = response.getTrades();
         log.info("订单同步:{}", JSON.toJSONString(response));
         SecurityClient securityClient = new SecurityClient(new DefaultTaobaoClient(url, appkey, secret),"nWdWsN0IJGb8A2cccsH/9/fID60zKkYSdLBj/4xqbzA=");
-        String phone = securityClient.decrypt("$176$8nS+X3F9VKGfEjwq9ryDDA==$1$", "phone", token);
-        System.out.println("电话号码："+phone);
+//        String phone = securityClient.decrypt("$176$8nS+X3F9VKGfEjwq9ryDDA==$1$", "phone", token);
+//        System.out.println("电话号码："+phone);
         String finalToken = token;
         trades.stream().forEach(trade -> {
             String add = null;
