@@ -79,7 +79,7 @@ public class TestKDController {
         trades.stream().forEach(trade -> {
             String add = null;
             try {
-                add = securityClient.decrypt(trade.getReceiverMobile(), "simple", finalToken);
+                add = securityClient.decrypt(trade.getReceiverMobile(), "phone", finalToken);
             } catch (SecretException e) {
                 e.printStackTrace();
             }
