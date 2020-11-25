@@ -62,21 +62,21 @@
             <version>1.1.7</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.yjzs</groupId>
-            <artifactId>yizs-sdk</artifactId>
-            <version>1.0.33</version>
-            <scope>system</scope>
-            <systemPath>${pom.basedir}/src/main/resources/lib/taobao-sdk-java-auto_1605151546145-20201112.jar</systemPath>
+<!--        <dependency>-->
+<!--            <groupId>com.yjzs</groupId>-->
+<!--            <artifactId>yizs-sdk</artifactId>-->
+<!--            <version>1.0.33</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${pom.basedir}/src/main/resources/lib/taobao-sdk-java-auto_1605151546145-20201112.jar</systemPath>-->
 
-        </dependency>
-        <dependency>
-            <groupId>com.yjzs</groupId>
-            <artifactId>yizs-sdk-all</artifactId>
-            <scope>system</scope>
-            <version>1.0.33</version>
-            <systemPath>${pom.basedir}/src/main/resources/lib/taobao-sdk-java-auto_1605151546145-20201112-source.jar</systemPath>
-        </dependency>
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.yjzs</groupId>-->
+<!--            <artifactId>yizs-sdk-all</artifactId>-->
+<!--            <scope>system</scope>-->
+<!--            <version>1.0.33</version>-->
+<!--            <systemPath>${pom.basedir}/src/main/resources/lib/taobao-sdk-java-auto_1605151546145-20201112-source.jar</systemPath>-->
+<!--        </dependency>-->
 
           <dependency>
               <groupId>com.kd</groupId>
